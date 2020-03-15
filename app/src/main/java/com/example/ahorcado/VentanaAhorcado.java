@@ -11,8 +11,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
+ * Autor: Javier de la Llave
  */
 public class VentanaAhorcado extends Fragment {
+
 
     public VentanaAhorcado() {
         // Required empty public constructor
