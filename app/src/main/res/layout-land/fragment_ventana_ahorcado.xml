@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity"
+              android:orientation="vertical"
+              >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imagenAhorcado"
+                android:layout_width="match_parent"
+                android:layout_height="429dp"
+                android:layout_weight="20"
+                android:src="@drawable/ahorcado_0"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/palabraConGuiones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|top"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textSize="50sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/botonA"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="A"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonB"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="B"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonC"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="C"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonD"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="D"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonE"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="E"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonF"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="F"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonG"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="G"
+                            android:textSize="25sp"></Button>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/botonH"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="H"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonI"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="I"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonJ"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="J"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonK"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="K"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonL"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="L"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonM"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="M"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonN"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="N"
+                            android:textSize="25sp"></Button>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/botonEnie"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="Ñ"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonO"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="O"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonP"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="P"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonQ"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="Q"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonR"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="R"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonS"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="S"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonT"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="T"
+                            android:textSize="25sp"></Button>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/botonU"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="U"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonV"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="V"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonW"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="W"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonVacio"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonX"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="X"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonY"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="Y"
+                            android:textSize="25sp"></Button>
+
+                        <Button
+                            android:id="@+id/botonZ"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="botonPulsado"
+                            android:text="Z"
+                            android:textSize="25sp"></Button>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonReiniciar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:onClick="reiniciar"
+                    android:text="Reiniciar" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

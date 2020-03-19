@@ -1,6 +1,6 @@
 package com.example.ahorcado;
 /*
- *Autor:JAvier de la Llave
+ *Autor:Javier de la Llave
  */
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     public boolean partidaTerminada=false;//Nos indica si la partida ha terminado o no
 
-    ArrayList<Button> listaBotones = new ArrayList<Button>();//Guardamos los botones que hansido pulsados
+    ArrayList<Button> listaBotones = new ArrayList<Button>();//Guardamos los botones que han sido pulsados
 
 
 
